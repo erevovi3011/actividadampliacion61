@@ -42,11 +42,11 @@ function manzana () {
         basic.pause(espera)
         if (juega) {
             led.unplot(x, y)
-            y = y + 0
+            y = y + 1
         }
-        if (juega) {
-            led.plot(cesta, 4)
-        }
+    }
+    if (juega) {
+        led.plot(cesta, 4)
     }
 }
 let y = 0
